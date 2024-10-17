@@ -1,0 +1,209 @@
+@font-face {
+    font-family: Logo ;
+    src: url(fonts/TitilliumWeb-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoMonoBold;
+    src: url(fonts/RobotoMono-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: RobotoMonoSemi;
+    src: url(fonts/RobotoMono-SemiBold.ttf);
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: RobotoRegular;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: CabinBold;
+    src: url(fonts/Cabin-Bold.ttf);
+}
+
+
+body{
+    margin: 0px; background-color: rgb(164, 129, 141);
+
+}
+*{
+    text-decoration: none;
+}
+
+.More{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(100,61,75);
+    border-radius: 25px;
+}
+
+.More{
+    text-align: center;
+}
+.navbar{
+    padding-right: 15px; padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo{
+    font-size: 29px; font-weight: 100px; font-family: Logo;
+}
+li{
+    list-style: none; display: inline-block; 
+}
+li a{
+    font-size: 13px; margin-right: 30px; color: black; font-family: RobotoMonoSemi;
+}
+.image{
+  border: 2px solid;   width: 500px; float: right; padding: auto; margin-right: 100px;
+}
+
+.intro{
+    margin-top: 60px;
+    height: 250px;
+    display: inline-block;
+}
+.intro h1{
+    text-align: center; font-size: 70px;font-family: RobotoBold; color: rgb(100, 61, 75);
+}
+.intro p{
+    font-size: 20px; margin-left: 18px; font-family: RobotoMedium; background-color:
+}
+.usable{
+    margin-top: 230px;  
+}
+.usable img{
+    width: 300px; float: left;
+}
+.usable p{
+    text-align: left; font-size: 18px; margin-left: 350px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+.usable h1{
+    margin-left: 350px; font-family: CabinBold;
+}
+.con{
+    margin-top: 100px;
+}
+.con img{
+    width: 250px; float: right;
+}
+
+.con p{
+text-align: right; font-size: 19px; margin-right: 300px; margin-top: 30px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+.con h1{
+    text-align: right; margin-right: 300px; font-family: CabinBold;
+}
+.nav{
+    margin-top: 100px;
+}
+.nav img{
+    width: 250px; float: left; 
+}
+
+.nav p{
+    margin-top: 35px; text-align: left; font-size: 19px; margin-left: 300px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+
+.nav h1{
+    margin-left: 300px; font-family: CabinBold;
+}
+
+.whitespace{
+    margin-top: 100px; 
+}
+.whitespace img{
+    width: 250px; float: right;
+}
+.whitespace h1{
+text-align: right; margin-right: 300px; font-family: CabinBold;
+}
+.whitespace p{
+    text-align: right; margin-right: 300px; font-size: 19px; margin-top: 30px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+.site{
+    margin-top: 100px;
+}
+.site img{
+    width: 270px; float: left;
+}
+.site h1{
+    margin-left: 300px; font-family: CabinBold;
+}
+.site p{
+    margin-left: 300px; font-size: 19px; margin-top: 30px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+.align img{
+    width: 290px; float: right;
+}
+.align{
+    margin-top: 100px;
+}
+.align h1{
+text-align: right; margin-right: 350px; font-family: CabinBold;
+}
+.align p{
+    text-align: right; margin-right: 350px; font-size: 19px; margin-top: 30px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+.clarity img{
+    width: 250px; float: left;
+}
+.clarity{
+    margin-top: 100px;
+}
+.clarity h1{
+    margin-left: 300px; font-family: CabinBold;
+}
+.clarity p{
+    margin-left: 300px; font-size: 19px; margin-top: 40px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+
+.simplicity{
+    margin-top: 100px;
+}
+.simplicity img{
+    width: 250px; float: right;
+}
+
+.simplicity h1{
+    text-align: right; margin-right: 300px; font-family: CabinBold;
+} 
+.simplicity p{
+    text-align: right; margin-right: 300px; font-size: 19px; margin-top: 40px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+.accurate{
+    margin-top: 100px;
+}
+.accurate img{
+    width: 250px; float: left;
+}
+.accurate h1{
+    margin-left: 300px; font-family: CabinBold;
+}
+.accurate p{
+    margin-left: 300px; font-size: 19px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+.access img{
+    width: 250px; float: right;
+}
+.access{
+    margin-top: 150px;
+}
+.access h1{
+    text-align: right; margin-right: 300px; font-family: CabinBold;
+}
+
+.access p{
+    text-align: right; margin-right: 300px; font-size: 19px; margin-top: 40px; font-family: RobotoRegular; background-color:  rgb(197, 171, 180) ;
+}
+
+img{
+    border: 2px solid;
+}
